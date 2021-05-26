@@ -11,9 +11,14 @@ class OrderUtil:
         meal = c.fetchone()
         list_meal = list(meal)
         print(list_meal)
-        if list_meal[2] < jumlah:
+        if list_meal[2] == 0:
+            print("Mohon maaf. Makanan/Minuman ini sudah habis")
+        elif list_meal[2] < jumlah:
             print(f"Porsi tidak cukup! Sisa porsi = {list_meal[2]}")
         else:
             print(f"{list_meal[0]} = {int(jumlah)} x Rp {list_meal[1]} = Rp {list_meal[1]*int(jumlah)}")
-            #list_meal[2] -= int(jumlah)
+            list_meal[2] -= int(jumlah)
             print(list_meal)
+            c.execute("UPDATE food SET stock = ? WHERE name = ?", [list_meal[2], name])
+            connect.commit()
+            connect.close()
