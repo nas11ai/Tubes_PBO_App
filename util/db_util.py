@@ -36,22 +36,30 @@ class FoodDatabase:
 
     @staticmethod
     def insert(name, price, stock):
-        connect = FoodDatabase().connect()
-        c = connect.cursor()
+        try:
+            name.isalpha()
+            connect = FoodDatabase().connect()
+            c = connect.cursor()
 
-        c.execute('''INSERT INTO food (name, price, stock) values (?, ?, ?)''',
-                  [name, price, stock])
-        connect.commit()
-        connect.close()
+            c.execute('''INSERT INTO food (name, price, stock) values (?, ?, ?)''',
+                      [str(name), int(price), int(stock)])
+            connect.commit()
+            connect.close()
+        except (AttributeError, ValueError):
+            print("Invalid input! name should be alphabet, stock and price should be numeric")
 
     @staticmethod
     def delete(id):
-        connect = FoodDatabase().connect()
-        c = connect.cursor()
+        try:
+            connect = FoodDatabase().connect()
+            c = connect.cursor()
 
-        c.execute("DELETE from food WHERE id=?", [id])
-        connect.commit()
-        connect.close()
+            c.execute("DELETE from food WHERE id=?", [int(id)])
+            connect.commit()
+            connect.close()
+        except ValueError:
+            print("id should be numeric")
+
 
     @staticmethod
     def get_info():
