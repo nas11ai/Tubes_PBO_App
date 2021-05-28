@@ -62,7 +62,11 @@ class Resto(QMainWindow):
         self.Lbl_Ayam.setText(str(orange[2]))
         self.Lbl_Ayam.setText(str(smoothie[2]))
         self.Frame_edit.setVisible(False)
-        self.Frame_4.setVisible(False)
+        self.Frame_edit_2.setVisible(False)
+        self.Frame_edit_3.setVisible(False)
+        self.Frame_edit_4.setVisible(False)
+        self.Frame_edit_5.setVisible(False)
+        #self.Frame_4.setVisible(False)
 
 
 
