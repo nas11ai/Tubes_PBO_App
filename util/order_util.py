@@ -13,7 +13,7 @@ class OrderUtil:
             meal = c.fetchone()
             list_meal = list(meal)
             print(list_meal)
-            if jumlah == 0:
+            if jumlah <= 0:
                 print("Harap memasukkan jumlah porsi dengan benar")
             elif list_meal[2] == 0:
                 print("Mohon maaf. Makanan/Minuman ini sudah habis")

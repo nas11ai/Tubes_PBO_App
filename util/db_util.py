@@ -1,5 +1,6 @@
-from util.db_pool import SQlitePool
 import sqlite3
+
+from util.db_pool import SQlitePool
 
 
 class FoodDatabase:
