@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>1.png</file>
+    <file>2.png</file>
+    <file>3.png</file>
+    <file>4.png</file>
+    <file>5.png</file>
+    <file>7.png</file>
+    <file>8.png</file>
+    <file>9.png</file>
+    <file>10.png</file>
+    <file>circle-cropped.png</file>
+    <file>exit-regular-120.png</file>
+    <file>food-menu-regular-120.png</file>
+    <file>logo-food-png.png</file>
+    <file>store-solid-120.png</file>
+    <file>wallet-regular-120.png</file>
+  </qresource>
+</RCC>
