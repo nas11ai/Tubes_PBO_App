@@ -276,7 +276,7 @@ QPushButton:hover {
 </string>
             </property>
             <property name="currentIndex">
-             <number>0</number>
+             <number>2</number>
             </property>
             <widget class="QWidget" name="Dashboard_Page">
              <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -694,7 +694,7 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
                           <rect>
                            <x>0</x>
                            <y>0</y>
-                           <width>1280</width>
+                           <width>86</width>
                            <height>770</height>
                           </rect>
                          </property>
@@ -879,7 +879,7 @@ border-radius:75px;
                                  </size>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Lasagna">
+                               <widget class="QLabel" name="Lbl_Stock_Lasagna">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -1040,7 +1040,7 @@ color:rgb(254, 251, 234);</string>
                                  <string>Portians available</string>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Risol">
+                               <widget class="QLabel" name="Lbl_Stock_Risol">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -1201,7 +1201,7 @@ color:rgb(254, 251, 234);</string>
                                  <string>Portians available</string>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Bulgogi">
+                               <widget class="QLabel" name="Lbl_Stock_Bulgogi">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -1362,7 +1362,7 @@ color:rgb(254, 251, 234);</string>
                                  <string>Portians available</string>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Ayam">
+                               <widget class="QLabel" name="Lbl_Stock_Ayam">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -1523,7 +1523,7 @@ color:rgb(254, 251, 234);</string>
                                  <string>Portians available</string>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Tteo">
+                               <widget class="QLabel" name="Lbl_Stock_Tteo">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -1684,7 +1684,7 @@ color:rgb(254, 251, 234);</string>
                                  <string>Portians available</string>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Bingso">
+                               <widget class="QLabel" name="Lbl_Stock_Bingso">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -1845,7 +1845,7 @@ color:rgb(254, 251, 234);</string>
                                  <string>Portians available</string>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Panna">
+                               <widget class="QLabel" name="Lbl_Stock_Panna">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -2006,7 +2006,7 @@ color:rgb(254, 251, 234);</string>
                                  <string>Portians available</string>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Tiramisu">
+                               <widget class="QLabel" name="Lbl_Stock_Tiramisu">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -2167,7 +2167,7 @@ color:rgb(254, 251, 234);</string>
                                  <string>Portians available</string>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Orange">
+                               <widget class="QLabel" name="Lbl_Stock_Orange">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -2328,7 +2328,7 @@ color:rgb(254, 251, 234);</string>
                                  <string>Portians available</string>
                                 </property>
                                </widget>
-                               <widget class="QLabel" name="Lbl_Smoothie">
+                               <widget class="QLabel" name="Lbl_Stock_Smoothie">
                                 <property name="geometry">
                                  <rect>
                                   <x>55</x>
@@ -2521,8 +2521,8 @@ background-color:rgb(65, 119, 167);
                      <widget class="QPushButton" name="pushButton_6">
                       <property name="geometry">
                        <rect>
-                        <x>580</x>
-                        <y>50</y>
+                        <x>610</x>
+                        <y>60</y>
                         <width>131</width>
                         <height>171</height>
                        </rect>
@@ -2556,7 +2556,7 @@ border-radius:75px;
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
-                       <height>350</height>
+                       <height>0</height>
                       </size>
                      </property>
                      <property name="maximumSize">
@@ -2644,23 +2644,17 @@ border-radius:35px;
                            <property name="frameShadow">
                             <enum>QFrame::Raised</enum>
                            </property>
-                           <widget class="QPushButton" name="But_edit">
-                            <property name="geometry">
-                             <rect>
-                              <x>40</x>
-                              <y>160</y>
-                              <width>171</width>
-                              <height>61</height>
-                             </rect>
-                            </property>
-                            <property name="font">
-                             <font>
-                              <family>Poppins Medium</family>
-                              <pointsize>26</pointsize>
-                             </font>
-                            </property>
-                            <property name="styleSheet">
-                             <string notr="true">QPushButton{
+                           <layout class="QGridLayout" name="gridLayout_27">
+                            <item row="0" column="0">
+                             <widget class="QPushButton" name="But_edit">
+                              <property name="font">
+                               <font>
+                                <family>Poppins Medium</family>
+                                <pointsize>26</pointsize>
+                               </font>
+                              </property>
+                              <property name="styleSheet">
+                               <string notr="true">QPushButton{
 background-color: rgb(254, 251, 234);
 color:rgb(255, 127, 82);
 padding:5px 5px;
@@ -2671,14 +2665,16 @@ border-radius:30px;
 QPushButton:hover{
 background-color:rgb(65, 119, 167);
 }</string>
-                            </property>
-                            <property name="text">
-                             <string>EDIT</string>
-                            </property>
-                            <property name="checkable">
-                             <bool>false</bool>
-                            </property>
-                           </widget>
+                              </property>
+                              <property name="text">
+                               <string>EDIT</string>
+                              </property>
+                              <property name="checkable">
+                               <bool>false</bool>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
                           </widget>
                          </item>
                          <item>
@@ -2800,12 +2796,60 @@ border:none;
                                   </property>
                                   <item>
                                    <widget class="QFrame" name="Frame_edit">
+                                    <property name="minimumSize">
+                                     <size>
+                                      <width>0</width>
+                                      <height>0</height>
+                                     </size>
+                                    </property>
+                                    <property name="maximumSize">
+                                     <size>
+                                      <width>150</width>
+                                      <height>16777215</height>
+                                     </size>
+                                    </property>
                                     <property name="frameShape">
                                      <enum>QFrame::StyledPanel</enum>
                                     </property>
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
+                                    <layout class="QGridLayout" name="gridLayout_26">
+                                     <item row="0" column="0">
+                                      <widget class="QPushButton" name="But_Clear">
+                                       <property name="maximumSize">
+                                        <size>
+                                         <width>41</width>
+                                         <height>41</height>
+                                        </size>
+                                       </property>
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins SemiBold</family>
+                                         <pointsize>25</pointsize>
+                                         <weight>75</weight>
+                                         <bold>true</bold>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">QPushButton{
+background-color: rgb(255, 127, 82);
+color: rgb(254, 251, 234);
+padding-top:8px;
+border-radius:20px;
+border:5px solid rgb(254, 251, 234);
+}
+QPushButton:hover{
+background-color:rgb(65, 119, 167);
+border:rgb(65, 119, 167);
+}</string>
+                                       </property>
+                                       <property name="text">
+                                        <string>-</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                   <item>
@@ -2816,52 +2860,42 @@ border:none;
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
-                                    <widget class="QLabel" name="label_Food">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>10</y>
-                                       <width>171</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>18</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                    <layout class="QGridLayout" name="gridLayout_18">
+                                     <item row="0" column="0">
+                                      <widget class="QLabel" name="label_Food">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>18</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>Ayam Geprek</string>
-                                     </property>
-                                    </widget>
-                                    <widget class="QLabel" name="label_harga">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>40</y>
-                                       <width>161</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>14</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                       </property>
+                                       <property name="text">
+                                        <string>Ayam Geprek</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                     <item row="1" column="0">
+                                      <widget class="QLabel" name="label_harga">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>14</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>RP.</string>
-                                     </property>
-                                    </widget>
+                                       </property>
+                                       <property name="text">
+                                        <string>RP.</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                  </layout>
@@ -2953,10 +2987,10 @@ background-color:rgb(65, 119, 167);
                                     </property>
                                     <layout class="QGridLayout" name="gridLayout_3">
                                      <item row="0" column="0">
-                                      <widget class="QLabel" name="label1">
+                                      <widget class="QLabel" name="Lbl_quantity">
                                        <property name="maximumSize">
                                         <size>
-                                         <width>18</width>
+                                         <width>35</width>
                                          <height>32</height>
                                         </size>
                                        </property>
@@ -3031,6 +3065,12 @@ background-color:rgb(65, 119, 167);
                             </item>
                             <item>
                              <widget class="QFrame" name="Frame_2">
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>70</height>
+                               </size>
+                              </property>
                               <property name="frameShape">
                                <enum>QFrame::StyledPanel</enum>
                               </property>
@@ -3085,12 +3125,54 @@ background-color:rgb(65, 119, 167);
                                   </property>
                                   <item>
                                    <widget class="QFrame" name="Frame_edit_2">
+                                    <property name="maximumSize">
+                                     <size>
+                                      <width>150</width>
+                                      <height>16777215</height>
+                                     </size>
+                                    </property>
                                     <property name="frameShape">
                                      <enum>QFrame::StyledPanel</enum>
                                     </property>
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
+                                    <layout class="QGridLayout" name="gridLayout_25">
+                                     <item row="0" column="0">
+                                      <widget class="QPushButton" name="But_Clear_2">
+                                       <property name="maximumSize">
+                                        <size>
+                                         <width>41</width>
+                                         <height>41</height>
+                                        </size>
+                                       </property>
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins SemiBold</family>
+                                         <pointsize>25</pointsize>
+                                         <weight>75</weight>
+                                         <bold>true</bold>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">QPushButton{
+background-color: rgb(255, 127, 82);
+color: rgb(254, 251, 234);
+padding-top:8px;
+border-radius:20px;
+border:5px solid rgb(254, 251, 234);
+}
+QPushButton:hover{
+background-color:rgb(65, 119, 167);
+border:rgb(65, 119, 167);
+}</string>
+                                       </property>
+                                       <property name="text">
+                                        <string>-</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                   <item>
@@ -3101,52 +3183,42 @@ background-color:rgb(65, 119, 167);
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
-                                    <widget class="QLabel" name="label_harga2">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>40</y>
-                                       <width>161</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>14</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                    <layout class="QGridLayout" name="gridLayout_17">
+                                     <item row="0" column="0">
+                                      <widget class="QLabel" name="label_Food2">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>18</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>RP.</string>
-                                     </property>
-                                    </widget>
-                                    <widget class="QLabel" name="label_Food2">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>10</y>
-                                       <width>171</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>18</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                       </property>
+                                       <property name="text">
+                                        <string>Ayam Geprek</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                     <item row="1" column="0">
+                                      <widget class="QLabel" name="label_harga2">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>14</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>Ayam Geprek</string>
-                                     </property>
-                                    </widget>
+                                       </property>
+                                       <property name="text">
+                                        <string>RP.</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                  </layout>
@@ -3232,10 +3304,10 @@ background-color:rgb(65, 119, 167);
                                     </property>
                                     <layout class="QGridLayout" name="gridLayout_9">
                                      <item row="0" column="0">
-                                      <widget class="QLabel" name="label1_2">
+                                      <widget class="QLabel" name="Lbl_quantity_2">
                                        <property name="maximumSize">
                                         <size>
-                                         <width>18</width>
+                                         <width>35</width>
                                          <height>32</height>
                                         </size>
                                        </property>
@@ -3310,6 +3382,12 @@ background-color:rgb(65, 119, 167);
                             </item>
                             <item>
                              <widget class="QFrame" name="Frame_3">
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>70</height>
+                               </size>
+                              </property>
                               <property name="frameShape">
                                <enum>QFrame::StyledPanel</enum>
                               </property>
@@ -3364,12 +3442,54 @@ background-color:rgb(65, 119, 167);
                                   </property>
                                   <item>
                                    <widget class="QFrame" name="Frame_edit_3">
+                                    <property name="maximumSize">
+                                     <size>
+                                      <width>150</width>
+                                      <height>16777215</height>
+                                     </size>
+                                    </property>
                                     <property name="frameShape">
                                      <enum>QFrame::StyledPanel</enum>
                                     </property>
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
+                                    <layout class="QGridLayout" name="gridLayout_24">
+                                     <item row="0" column="0">
+                                      <widget class="QPushButton" name="But_Clear_3">
+                                       <property name="maximumSize">
+                                        <size>
+                                         <width>41</width>
+                                         <height>41</height>
+                                        </size>
+                                       </property>
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins SemiBold</family>
+                                         <pointsize>25</pointsize>
+                                         <weight>75</weight>
+                                         <bold>true</bold>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">QPushButton{
+background-color: rgb(255, 127, 82);
+color: rgb(254, 251, 234);
+padding-top:8px;
+border-radius:20px;
+border:5px solid rgb(254, 251, 234);
+}
+QPushButton:hover{
+background-color:rgb(65, 119, 167);
+border:rgb(65, 119, 167);
+}</string>
+                                       </property>
+                                       <property name="text">
+                                        <string>-</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                   <item>
@@ -3380,52 +3500,42 @@ background-color:rgb(65, 119, 167);
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
-                                    <widget class="QLabel" name="label_harga2_2">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>40</y>
-                                       <width>161</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>14</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                    <layout class="QGridLayout" name="gridLayout_19">
+                                     <item row="0" column="0">
+                                      <widget class="QLabel" name="label_Food2_2">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>18</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>RP.</string>
-                                     </property>
-                                    </widget>
-                                    <widget class="QLabel" name="label_Food2_2">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>10</y>
-                                       <width>171</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>18</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                       </property>
+                                       <property name="text">
+                                        <string>Ayam Geprek</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                     <item row="1" column="0">
+                                      <widget class="QLabel" name="label_harga2_2">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>14</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>Ayam Geprek</string>
-                                     </property>
-                                    </widget>
+                                       </property>
+                                       <property name="text">
+                                        <string>RP.</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                  </layout>
@@ -3511,10 +3621,10 @@ background-color:rgb(65, 119, 167);
                                     </property>
                                     <layout class="QGridLayout" name="gridLayout_6">
                                      <item row="0" column="0">
-                                      <widget class="QLabel" name="label1_3">
+                                      <widget class="QLabel" name="Lbl_quantity_3">
                                        <property name="maximumSize">
                                         <size>
-                                         <width>18</width>
+                                         <width>35</width>
                                          <height>32</height>
                                         </size>
                                        </property>
@@ -3592,7 +3702,13 @@ background-color:rgb(65, 119, 167);
                               <property name="minimumSize">
                                <size>
                                 <width>508</width>
-                                <height>77</height>
+                                <height>0</height>
+                               </size>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>70</height>
                                </size>
                               </property>
                               <property name="frameShape">
@@ -3649,12 +3765,54 @@ background-color:rgb(65, 119, 167);
                                   </property>
                                   <item>
                                    <widget class="QFrame" name="Frame_edit_4">
+                                    <property name="maximumSize">
+                                     <size>
+                                      <width>150</width>
+                                      <height>16777215</height>
+                                     </size>
+                                    </property>
                                     <property name="frameShape">
                                      <enum>QFrame::StyledPanel</enum>
                                     </property>
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
+                                    <layout class="QGridLayout" name="gridLayout_23">
+                                     <item row="0" column="0">
+                                      <widget class="QPushButton" name="But_Clear_4">
+                                       <property name="maximumSize">
+                                        <size>
+                                         <width>41</width>
+                                         <height>41</height>
+                                        </size>
+                                       </property>
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins SemiBold</family>
+                                         <pointsize>25</pointsize>
+                                         <weight>75</weight>
+                                         <bold>true</bold>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">QPushButton{
+background-color: rgb(255, 127, 82);
+color: rgb(254, 251, 234);
+padding-top:8px;
+border-radius:20px;
+border:5px solid rgb(254, 251, 234);
+}
+QPushButton:hover{
+background-color:rgb(65, 119, 167);
+border:rgb(65, 119, 167);
+}</string>
+                                       </property>
+                                       <property name="text">
+                                        <string>-</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                   <item>
@@ -3665,52 +3823,42 @@ background-color:rgb(65, 119, 167);
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
-                                    <widget class="QLabel" name="label_harga2_3">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>40</y>
-                                       <width>161</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>14</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                    <layout class="QGridLayout" name="gridLayout_20">
+                                     <item row="0" column="0">
+                                      <widget class="QLabel" name="label_Food2_3">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>18</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>RP.</string>
-                                     </property>
-                                    </widget>
-                                    <widget class="QLabel" name="label_Food2_3">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>10</y>
-                                       <width>171</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>18</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                       </property>
+                                       <property name="text">
+                                        <string>Ayam Geprek</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                     <item row="1" column="0">
+                                      <widget class="QLabel" name="label_harga2_3">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>14</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>Ayam Geprek</string>
-                                     </property>
-                                    </widget>
+                                       </property>
+                                       <property name="text">
+                                        <string>RP.</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                  </layout>
@@ -3796,10 +3944,10 @@ background-color:rgb(65, 119, 167);
                                     </property>
                                     <layout class="QGridLayout" name="gridLayout_12">
                                      <item row="0" column="0">
-                                      <widget class="QLabel" name="label1_4">
+                                      <widget class="QLabel" name="Lbl_quantity_4">
                                        <property name="maximumSize">
                                         <size>
-                                         <width>18</width>
+                                         <width>35</width>
                                          <height>32</height>
                                         </size>
                                        </property>
@@ -3877,7 +4025,13 @@ background-color:rgb(65, 119, 167);
                               <property name="minimumSize">
                                <size>
                                 <width>0</width>
-                                <height>77</height>
+                                <height>0</height>
+                               </size>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>70</height>
                                </size>
                               </property>
                               <property name="frameShape">
@@ -3934,12 +4088,54 @@ background-color:rgb(65, 119, 167);
                                   </property>
                                   <item>
                                    <widget class="QFrame" name="Frame_edit_5">
+                                    <property name="maximumSize">
+                                     <size>
+                                      <width>150</width>
+                                      <height>16777215</height>
+                                     </size>
+                                    </property>
                                     <property name="frameShape">
                                      <enum>QFrame::StyledPanel</enum>
                                     </property>
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
+                                    <layout class="QGridLayout" name="gridLayout_22">
+                                     <item row="0" column="0">
+                                      <widget class="QPushButton" name="But_Clear_5">
+                                       <property name="maximumSize">
+                                        <size>
+                                         <width>41</width>
+                                         <height>41</height>
+                                        </size>
+                                       </property>
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins SemiBold</family>
+                                         <pointsize>25</pointsize>
+                                         <weight>75</weight>
+                                         <bold>true</bold>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">QPushButton{
+background-color: rgb(255, 127, 82);
+color: rgb(254, 251, 234);
+padding-top:8px;
+border-radius:20px;
+border:5px solid rgb(254, 251, 234);
+}
+QPushButton:hover{
+background-color:rgb(65, 119, 167);
+border:rgb(65, 119, 167);
+}</string>
+                                       </property>
+                                       <property name="text">
+                                        <string>-</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                   <item>
@@ -3950,52 +4146,42 @@ background-color:rgb(65, 119, 167);
                                     <property name="frameShadow">
                                      <enum>QFrame::Raised</enum>
                                     </property>
-                                    <widget class="QLabel" name="label_harga2_4">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>40</y>
-                                       <width>161</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>14</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                    <layout class="QGridLayout" name="gridLayout_21">
+                                     <item row="0" column="0">
+                                      <widget class="QLabel" name="label_Food2_4">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>18</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>RP.</string>
-                                     </property>
-                                    </widget>
-                                    <widget class="QLabel" name="label_Food2_4">
-                                     <property name="geometry">
-                                      <rect>
-                                       <x>10</x>
-                                       <y>10</y>
-                                       <width>171</width>
-                                       <height>21</height>
-                                      </rect>
-                                     </property>
-                                     <property name="font">
-                                      <font>
-                                       <family>Poppins</family>
-                                       <pointsize>18</pointsize>
-                                      </font>
-                                     </property>
-                                     <property name="styleSheet">
-                                      <string notr="true">color: rgb(254, 251, 234);
+                                       </property>
+                                       <property name="text">
+                                        <string>Ayam Geprek</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                     <item row="1" column="0">
+                                      <widget class="QLabel" name="label_harga2_4">
+                                       <property name="font">
+                                        <font>
+                                         <family>Poppins</family>
+                                         <pointsize>14</pointsize>
+                                        </font>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">color: rgb(254, 251, 234);
 </string>
-                                     </property>
-                                     <property name="text">
-                                      <string>Ayam Geprek</string>
-                                     </property>
-                                    </widget>
+                                       </property>
+                                       <property name="text">
+                                        <string>RP.</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
                                    </widget>
                                   </item>
                                  </layout>
@@ -4081,10 +4267,10 @@ background-color:rgb(65, 119, 167);
                                     </property>
                                     <layout class="QGridLayout" name="gridLayout_15">
                                      <item row="0" column="0">
-                                      <widget class="QLabel" name="label1_5">
+                                      <widget class="QLabel" name="Lbl_quantity_5">
                                        <property name="maximumSize">
                                         <size>
-                                         <width>18</width>
+                                         <width>35</width>
                                          <height>32</height>
                                         </size>
                                        </property>
@@ -4171,7 +4357,7 @@ background-color:rgb(65, 119, 167);
                      <property name="maximumSize">
                       <size>
                        <width>16777215</width>
-                       <height>35</height>
+                       <height>30</height>
                       </size>
                      </property>
                      <property name="frameShape">
