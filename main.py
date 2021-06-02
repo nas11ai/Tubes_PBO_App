@@ -71,11 +71,30 @@ class Resto(QMainWindow):
         self.But_Clear_4.clicked.connect(self.Edit4)
         self.But_Clear_5.clicked.connect(self.Edit5)
         self.But_Complate.clicked.connect(self.Pay)
+        self.But_Bayar.setEnabled(False)
         self.Tgl.setText(o)
         self.Tgl_2.setText(o)
         self.Tgl_3.setText(o)
-
-
+        if FoodSelect.select_stock(self.Label_Lasagna.text()) == 0:
+            self.Frame_Lasagna.setEnabled(False)
+        if FoodSelect.select_stock(self.Label_Risol.text()) == 0:
+            self.Frame_Risol.setEnabled(False)
+        if FoodSelect.select_stock(self.Label_Ayam.text()) == 0:
+            self.Frame_Ayam.setEnabled(False)
+        if FoodSelect.select_stock(self.Label_Tteok.text()) == 0:
+            self.Frame_Tteok.setEnabled(False)
+        if FoodSelect.select_stock(self.Label_Bulgogi.text()) == 0:
+            self.Frame_Bulgogi.setEnabled(False)
+        if FoodSelect.select_stock(self.Label_Bingsoo.text()) == 0:
+            self.Frame_Bingsoo.setEnabled(False)
+        if FoodSelect.select_stock(self.Label_Panna.text()) == 0:
+            self.Frame_Panna.setEnabled(False)
+        if FoodSelect.select_stock(self.Label_Orange.text()) == 0:
+            self.Frame_Orange.setEnabled(False)
+        if FoodSelect.select_stock(self.Label_Smoothie.text()) == 0:
+            self.Frame_Smoothie.setEnabled(False)
+        if FoodSelect.select_stock(self.Label_Tiramisu.text()) == 0:
+            self.Frame_Tiramisu.setEnabled(False)
 
 
     def Lasagna(self):
@@ -134,6 +153,7 @@ class Resto(QMainWindow):
         self.Frame_edit_3.setVisible(False)
         self.Frame_edit_4.setVisible(False)
         self.Frame_edit_5.setVisible(False)
+        self.But_Bayar.setEnabled(False)
         harga.clear()
         self.Lbl_Stock_Lasagna.setText(str(FoodSelect.select_stock('Lasagna')))
         self.Lbl_Stock_Risol.setText(str(FoodSelect.select_stock('Risol Mayo')))
@@ -148,6 +168,7 @@ class Resto(QMainWindow):
 
 
     def Pay(self):
+        self.But_Bayar.setEnabled(True)
         for j in pembayaran:
             if j in pembayaran[0]:
                 self.Frame_1.setVisible(True)
@@ -730,7 +751,6 @@ class Resto(QMainWindow):
         self.Frame_5.setVisible(False)
 
     def stock(self):
-        #jumlah=(int(selfLbl_quantity.text())
         if self.label_Food.text():
             OrderUtil.order(self.label_Food.text(),(int(self.Lbl_quantity.text())))
         if self.label_Food2.text():
@@ -741,7 +761,6 @@ class Resto(QMainWindow):
             OrderUtil.order(self.label_Food4.text(),(int(self.Lbl_quantity_4.text())))
         if self.label_Food5.text():
             OrderUtil.order(self.label_Food5.text(),(int(self.Lbl_quantity_5.text())))
-        #print("ayam")
 
     def back(self):
         if self.label_Food.text():
