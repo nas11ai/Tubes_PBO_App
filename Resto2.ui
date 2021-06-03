@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1422</width>
-    <height>1052</height>
+    <height>1054</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -983,7 +983,7 @@ color:rgb(254, 251, 234);</string>
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QPushButton" name="pushButton_16">
@@ -1174,7 +1174,7 @@ border-radius:75px;
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QLabel" name="Lbl_Stock_Risol">
@@ -1335,7 +1335,7 @@ border-radius:75px;
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QLabel" name="Lbl_Stock_Bulgogi">
@@ -1496,7 +1496,7 @@ border-radius:75px;
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QLabel" name="Lbl_Stock_Ayam">
@@ -1657,7 +1657,7 @@ border-radius:75px;
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QLabel" name="Lbl_Stock_Tteo">
@@ -1818,7 +1818,7 @@ border-radius:75px;
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QLabel" name="Lbl_Stock_Bingso">
@@ -1979,7 +1979,7 @@ border-radius:75px;
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QLabel" name="Lbl_Stock_Panna">
@@ -2140,7 +2140,7 @@ border-radius:75px;
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QLabel" name="Lbl_Stock_Tiramisu">
@@ -2301,7 +2301,7 @@ border-radius:75px;
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QLabel" name="Lbl_Stock_Orange">
@@ -2462,7 +2462,7 @@ border-radius:75px;
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Portians available</string>
+                                 <string>Portions available</string>
                                 </property>
                                </widget>
                                <widget class="QLabel" name="Lbl_Stock_Smoothie">
@@ -2559,7 +2559,7 @@ background-color:rgb(65, 119, 167);
 }</string>
                         </property>
                         <property name="text">
-                         <string>Complate Order</string>
+                         <string>Complete Order</string>
                         </property>
                         <property name="checkable">
                          <bool>false</bool>
@@ -3012,7 +3012,7 @@ border:rgb(65, 119, 167);
 </string>
                                        </property>
                                        <property name="text">
-                                        <string>kosong</string>
+                                        <string>Ayam Geprek</string>
                                        </property>
                                       </widget>
                                      </item>
@@ -3318,7 +3318,7 @@ border:rgb(65, 119, 167);
 </string>
                                        </property>
                                        <property name="text">
-                                        <string>kosong</string>
+                                        <string>Ayam Geprek</string>
                                        </property>
                                       </widget>
                                      </item>
@@ -3442,7 +3442,7 @@ background-color:rgb(65, 119, 167);
                                         <string notr="true">color: rgb(254, 251, 234);</string>
                                        </property>
                                        <property name="text">
-                                        <string>kosong</string>
+                                        <string>0</string>
                                        </property>
                                       </widget>
                                      </item>
@@ -3635,7 +3635,7 @@ border:rgb(65, 119, 167);
 </string>
                                        </property>
                                        <property name="text">
-                                        <string>kosng</string>
+                                        <string>Ayam Geprek</string>
                                        </property>
                                       </widget>
                                      </item>
@@ -3759,7 +3759,7 @@ background-color:rgb(65, 119, 167);
                                         <string notr="true">color: rgb(254, 251, 234);</string>
                                        </property>
                                        <property name="text">
-                                        <string>kosong</string>
+                                        <string>0</string>
                                        </property>
                                       </widget>
                                      </item>
@@ -3958,7 +3958,7 @@ border:rgb(65, 119, 167);
 </string>
                                        </property>
                                        <property name="text">
-                                        <string>kosong</string>
+                                        <string>Ayam Geprek</string>
                                        </property>
                                       </widget>
                                      </item>
@@ -4082,7 +4082,7 @@ background-color:rgb(65, 119, 167);
                                         <string notr="true">color: rgb(254, 251, 234);</string>
                                        </property>
                                        <property name="text">
-                                        <string>kosong</string>
+                                        <string>0</string>
                                        </property>
                                       </widget>
                                      </item>
@@ -4281,7 +4281,7 @@ border:rgb(65, 119, 167);
 </string>
                                        </property>
                                        <property name="text">
-                                        <string>kosong</string>
+                                        <string>Ayam Geprek</string>
                                        </property>
                                       </widget>
                                      </item>
@@ -4405,7 +4405,7 @@ background-color:rgb(65, 119, 167);
                                         <string notr="true">color: rgb(254, 251, 234);</string>
                                        </property>
                                        <property name="text">
-                                        <string>kosong</string>
+                                        <string>0</string>
                                        </property>
                                       </widget>
                                      </item>
@@ -4658,6 +4658,12 @@ border:none;
                            <layout class="QHBoxLayout" name="horizontalLayout_19">
                             <item>
                              <widget class="QFrame" name="frame_21">
+                              <property name="maximumSize">
+                               <size>
+                                <width>60</width>
+                                <height>16777215</height>
+                               </size>
+                              </property>
                               <property name="frameShape">
                                <enum>QFrame::StyledPanel</enum>
                               </property>
@@ -4741,6 +4747,12 @@ QPushButton:hover {
                             </item>
                             <item>
                              <widget class="QLabel" name="lbl_Total">
+                              <property name="maximumSize">
+                               <size>
+                                <width>170</width>
+                                <height>16777215</height>
+                               </size>
+                              </property>
                               <property name="font">
                                <font>
                                 <family>Poppins</family>
@@ -4857,171 +4869,244 @@ background-color:rgb(65, 119, 167);
                 <property name="frameShadow">
                  <enum>QFrame::Raised</enum>
                 </property>
-                <widget class="QFrame" name="frame_15">
-                 <property name="geometry">
-                  <rect>
-                   <x>180</x>
-                   <y>270</y>
-                   <width>816</width>
-                   <height>377</height>
-                  </rect>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 127, 82);
+                <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <item>
+                  <widget class="QFrame" name="frame_61">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QLabel" name="label_21">
+                    <property name="geometry">
+                     <rect>
+                      <x>0</x>
+                      <y>10</y>
+                      <width>581</width>
+                      <height>51</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Poppins</family>
+                      <pointsize>40</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(255, 127, 82);</string>
+                    </property>
+                    <property name="text">
+                     <string>Bancarelle de Resto</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="Tgl_4">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>70</y>
+                      <width>281</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Poppins</family>
+                      <pointsize>17</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(255, 127, 82);</string>
+                    </property>
+                    <property name="text">
+                     <string>Friday, May 24 2021</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_63">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>400</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_33">
+                    <item row="0" column="0">
+                     <widget class="QFrame" name="frame_15">
+                      <property name="maximumSize">
+                       <size>
+                        <width>816</width>
+                        <height>377</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color:rgb(255, 127, 82);
 border:30px;
 border-color:rgb(0, 0, 0);
 
 </string>
-                 </property>
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                 <layout class="QVBoxLayout" name="verticalLayout_14">
-                  <property name="spacing">
-                   <number>0</number>
-                  </property>
-                  <property name="leftMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="topMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="rightMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="bottomMargin">
-                   <number>0</number>
-                  </property>
-                  <item>
-                   <widget class="QFrame" name="frame_16">
-                    <property name="minimumSize">
-                     <size>
-                      <width>0</width>
-                      <height>95</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>16777215</width>
-                      <height>95</height>
-                     </size>
-                    </property>
-                    <property name="frameShape">
-                     <enum>QFrame::StyledPanel</enum>
-                    </property>
-                    <property name="frameShadow">
-                     <enum>QFrame::Raised</enum>
-                    </property>
-                    <widget class="QLabel" name="label_22">
-                     <property name="geometry">
-                      <rect>
-                       <x>210</x>
-                       <y>30</y>
-                       <width>451</width>
-                       <height>41</height>
-                      </rect>
-                     </property>
-                     <property name="font">
-                      <font>
-                       <family>Poppins SemiBold</family>
-                       <pointsize>25</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
-                      </font>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">color: rgb(254, 251, 234);
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_28">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QFrame" name="frame_16">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>95</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>95</height>
+                          </size>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <widget class="QLabel" name="label_22">
+                          <property name="geometry">
+                           <rect>
+                            <x>210</x>
+                            <y>30</y>
+                            <width>451</width>
+                            <height>41</height>
+                           </rect>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Poppins SemiBold</family>
+                            <pointsize>25</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(254, 251, 234);
 </string>
-                     </property>
-                     <property name="text">
-                      <string>Write you’re table number </string>
-                     </property>
-                    </widget>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QFrame" name="frame_28">
-                    <property name="minimumSize">
-                     <size>
-                      <width>0</width>
-                      <height>5</height>
-                     </size>
-                    </property>
-                    <property name="maximumSize">
-                     <size>
-                      <width>16777215</width>
-                      <height>5</height>
-                     </size>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(254, 251, 234);
+                          </property>
+                          <property name="text">
+                           <string>Write you’re table number </string>
+                          </property>
+                         </widget>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QFrame" name="frame_28">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>5</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>5</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(254, 251, 234);
 </string>
-                    </property>
-                    <property name="frameShape">
-                     <enum>QFrame::StyledPanel</enum>
-                    </property>
-                    <property name="frameShadow">
-                     <enum>QFrame::Raised</enum>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QFrame" name="frame_26">
-                    <property name="frameShape">
-                     <enum>QFrame::StyledPanel</enum>
-                    </property>
-                    <property name="frameShadow">
-                     <enum>QFrame::Raised</enum>
-                    </property>
-                    <widget class="QLineEdit" name="Line_Meja">
-                     <property name="geometry">
-                      <rect>
-                       <x>280</x>
-                       <y>80</y>
-                       <width>232</width>
-                       <height>98</height>
-                      </rect>
-                     </property>
-                     <property name="font">
-                      <font>
-                       <family>Poppins SemiBold</family>
-                       <pointsize>40</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
-                      </font>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">background-color: rgb(254, 251, 234);
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QFrame" name="frame_26">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <widget class="QLineEdit" name="Line_Meja">
+                          <property name="geometry">
+                           <rect>
+                            <x>280</x>
+                            <y>80</y>
+                            <width>232</width>
+                            <height>98</height>
+                           </rect>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Poppins SemiBold</family>
+                            <pointsize>40</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(254, 251, 234);
 color:rgb(0, 0, 0);
 border-radius:20px;
 padding-left:90px;</string>
-                     </property>
-                     <property name="placeholderText">
-                      <string>...</string>
-                     </property>
-                    </widget>
-                    <widget class="QPushButton" name="But_Ok">
-                     <property name="geometry">
-                      <rect>
-                       <x>550</x>
-                       <y>90</y>
-                       <width>91</width>
-                       <height>81</height>
-                      </rect>
-                     </property>
-                     <property name="font">
-                      <font>
-                       <family>Poppins SemiBold</family>
-                       <pointsize>25</pointsize>
-                       <weight>75</weight>
-                       <bold>true</bold>
-                      </font>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
+                          </property>
+                          <property name="placeholderText">
+                           <string>...</string>
+                          </property>
+                         </widget>
+                         <widget class="QPushButton" name="But_Ok">
+                          <property name="geometry">
+                           <rect>
+                            <x>550</x>
+                            <y>90</y>
+                            <width>91</width>
+                            <height>81</height>
+                           </rect>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Poppins SemiBold</family>
+                            <pointsize>25</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QPushButton{
 background-color: rgb(254, 251, 234);
 color:rgb(0, 0, 0);
 border-radius:40px;
@@ -5029,63 +5114,30 @@ border-radius:40px;
 QPushButton:hover{
 background-color:rgb(65, 119, 167);
 }</string>
-                     </property>
-                     <property name="text">
-                      <string>OK</string>
-                     </property>
-                    </widget>
-                   </widget>
-                  </item>
-                 </layout>
-                </widget>
-                <widget class="QLabel" name="label_21">
-                 <property name="geometry">
-                  <rect>
-                   <x>10</x>
-                   <y>10</y>
-                   <width>581</width>
-                   <height>51</height>
-                  </rect>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Poppins</family>
-                   <pointsize>40</pointsize>
-                   <weight>50</weight>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">color: rgb(255, 127, 82);</string>
-                 </property>
-                 <property name="text">
-                  <string>Bancarelle de Resto</string>
-                 </property>
-                </widget>
-                <widget class="QLabel" name="Tgl_4">
-                 <property name="geometry">
-                  <rect>
-                   <x>20</x>
-                   <y>70</y>
-                   <width>281</width>
-                   <height>31</height>
-                  </rect>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Poppins</family>
-                   <pointsize>17</pointsize>
-                   <weight>50</weight>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">color: rgb(255, 127, 82);</string>
-                 </property>
-                 <property name="text">
-                  <string>Friday, May 24 2021</string>
-                 </property>
-                </widget>
+                          </property>
+                          <property name="text">
+                           <string>OK</string>
+                          </property>
+                         </widget>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_65">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
              </layout>
