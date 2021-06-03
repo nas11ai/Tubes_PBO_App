@@ -10,7 +10,7 @@ import datetime
 x = datetime.datetime.now()
 o= x.strftime("%A")+", "+x.strftime("%b")+" "+x.strftime("%d")+" "+x.strftime("%Y")
 pembayaran = []
-harga=[0]
+harga = []
 total_harga=[]
 total1=[0]
 total2=[0]
@@ -75,6 +75,7 @@ class Resto(QMainWindow):
         self.Tgl.setText(o)
         self.Tgl_2.setText(o)
         self.Tgl_3.setText(o)
+        self.Tgl_4.setText(o)
         if FoodSelect.select_stock(self.Label_Lasagna.text()) == 0:
             self.Frame_Lasagna.setEnabled(False)
         if FoodSelect.select_stock(self.Label_Risol.text()) == 0:
@@ -153,7 +154,6 @@ class Resto(QMainWindow):
         self.Frame_edit_3.setVisible(False)
         self.Frame_edit_4.setVisible(False)
         self.Frame_edit_5.setVisible(False)
-        self.But_Bayar.setEnabled(False)
         harga.clear()
         self.Lbl_Stock_Lasagna.setText(str(FoodSelect.select_stock('Lasagna')))
         self.Lbl_Stock_Risol.setText(str(FoodSelect.select_stock('Risol Mayo')))
@@ -173,6 +173,9 @@ class Resto(QMainWindow):
             if j in pembayaran[0]:
                 self.Frame_1.setVisible(True)
                 harga.append(FoodSelect.select_price(pembayaran[0]))
+                total1.append(harga[0])
+                if total1[1]:
+                    total1.remove(total1[0])
                 self.Lbl_quantity.setText(str(1))
                 if pembayaran[0] == 'Lasagna':
                     self.label_Food.setText(self.Label_Lasagna.text())
@@ -227,6 +230,9 @@ class Resto(QMainWindow):
             elif j in pembayaran[1]:
                 self.Frame_2.setVisible(True)
                 harga.append(FoodSelect.select_price(pembayaran[1]))
+                total2.append(harga[1])
+                if total2[1]:
+                    total2.remove(total2[0])
                 self.Lbl_quantity_2.setText(str(1))
                 if pembayaran[1] == 'Lasagna':
                     self.label_Food2.setText(self.Label_Lasagna.text())
@@ -281,6 +287,9 @@ class Resto(QMainWindow):
             elif j in pembayaran[2]:
                 self.Frame_3.setVisible(True)
                 harga.append(FoodSelect.select_price(pembayaran[2]))
+                total3.append(harga[2])
+                if total3[1]:
+                    total3.remove(total3[0])
                 self.Lbl_quantity_3.setText(str(1))
                 if pembayaran[2] == 'Lasagna':
                     self.label_Food3.setText(self.Label_Lasagna.text())
@@ -335,6 +344,9 @@ class Resto(QMainWindow):
             elif j in pembayaran[3]:
                 self.Frame_4.setVisible(True)
                 harga.append(FoodSelect.select_price(pembayaran[3]))
+                total4.append(harga[3])
+                if total4[1]:
+                    total4.remove(total4[0])
                 self.Lbl_quantity_4.setText(str(1))
                 if pembayaran[3] == 'Lasagna':
                     self.label_Food4.setText(self.Label_Lasagna.text())
@@ -389,6 +401,9 @@ class Resto(QMainWindow):
             elif j in pembayaran[4]:
                 self.Frame_5.setVisible(True)
                 harga.append(FoodSelect.select_price(pembayaran[4]))
+                total5.append(harga[4])
+                if total5[1]:
+                    total5.remove(total1[0])
                 self.Lbl_quantity_5.setText(str(1))
                 if pembayaran[4] == 'Lasagna':
                     self.label_Food5.setText(self.Label_Lasagna.text())
@@ -440,7 +455,7 @@ class Resto(QMainWindow):
                     self.label_harga5.setText("Rp. "+str(FoodSelect.select_price('Smoothie')))
                     total_harga = sum(harga)
                     self.lbl_Total.setText('Rp. ' + str(total_harga))
-
+        print(harga)
 
 
     def Plus1(self):
@@ -449,13 +464,11 @@ class Resto(QMainWindow):
         if plus > FoodSelect.select_stock(self.label_Food.text()):
             return FoodSelect.select_stock(self.label_Food.text())
         self.Lbl_quantity.setText(str(plus))
-        if harga[0]:
-            total=(plus*harga[0])
+        if harga[1]:
+            total = (plus * harga[0])
             total1.append(total)
             if total1[1]:
                 total1.remove(total1[0])
-
-
 
     def Min1(self):
         nilai = int(self.Lbl_quantity.text())
@@ -763,6 +776,7 @@ class Resto(QMainWindow):
             OrderUtil.order(self.label_Food5.text(),(int(self.Lbl_quantity_5.text())))
 
     def back(self):
+        self.But_Bayar.setEnabled(False)
         if self.label_Food.text():
             self.Frame_1.setVisible(False)
             if self.label_Food.text()== "Lasagna":
