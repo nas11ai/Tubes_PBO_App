@@ -1281,7 +1281,7 @@ color:rgb(254, 251, 234);</string>
 color:rgb(254, 251, 234);</string>
                                 </property>
                                 <property name="text">
-                                 <string>Rp. 28.000</string>
+                                 <string>Rp. 45.000</string>
                                 </property>
                                </widget>
                                <widget class="QPushButton" name="pushButton_17">
